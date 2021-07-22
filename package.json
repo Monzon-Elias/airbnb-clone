@@ -1,6 +1,6 @@
 {
   "name": "airbnb-clone",
-  "homepage": "https://monzon-elias.github.io/airbnb-clone",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

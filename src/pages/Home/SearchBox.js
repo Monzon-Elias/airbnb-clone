@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./SearchBox.css";
 
 class SearchBox extends Component {
-  state = { where: "", checkIn: "", checkOut: "", guests: 0 };
+  state = { where: "", checkIn: "", checkOut: "", guests: 1 };
 
   changeWhere = (e) => this.setState({ where: e.target.value });
   changeCheckIn = (e) => this.setState({ checkIn: e.target.value });

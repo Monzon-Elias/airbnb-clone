@@ -25,7 +25,7 @@ const Search = lazy(() => import("./pages/Search/Search"));
 class App extends Component {
   render() {
     return (
-      <Router basename="/airbnb-clone">
+      <Router>
         <Suspense fallback={<Spinner />}>
           <Route path="/" component={NavBar}></Route>
           <Route exact path="/" component={Home}></Route>

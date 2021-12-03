@@ -6,6 +6,7 @@ import "../Home/Home.css";
 import Cities from "../../utility/City/Cities";
 import Activities from "../../utility/Activity/Activities";
 import Venues from "../../utility/Venue/Venues";
+
 class Search extends Component {
   state = { activities: [], cities: [], venues: [], apiResp: false };
 
